@@ -50,6 +50,62 @@ body {
   clear: both;
 }
 
+.entryBtns {
+  text-align: center;
+}
+
+.entryBtns input {
+  width: 100px;
+  margin: 0 10px;
+  padding: 10px;
+  background: #fff;
+  border: 2px solid #f6bb9e;
+  border-radius: 10px;
+  font-size: 1em;
+  -webkit-appearence: none;
+}
+
+.entryBtns input[type="submit"] {
+  background: #fadccc;
+}
+
+.entryBtns input:hover {
+  opacity: 0.7;
+}
+
+.entryTable{
+  width: 100%;
+  margin-bottom: 30px;
+  border: 2px solid #f6bb9e;
+  border-collapse: collapse;
+}
+
+.entryTable th,
+.entryTable td {
+  padding: 10px 20px;
+  border: 1px solid #f6bb9e;
+}
+
+.entryTable th {
+  width: 10em;
+  background-color: #ffeeee;
+  text-align: left;
+}
+
+.entryTable caption {
+  margin-bottom: 10px;
+}
+
+.entryTable input[type="text"],
+.entryTable input[type="email"],
+.entryTable textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
 header,nav,footer {
   text-align: center;
 }
@@ -104,6 +160,13 @@ h1 {
 
 .img-round {
   border-radius: 50%;
+}
+
+label,
+input,
+textarea,
+select {
+  cursor: pointer;
 }
 
 .more{
